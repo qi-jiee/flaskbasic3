@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>ASR Houses</title>
+	<meta charset="utf-8">
+	<style>
+		body{
+			background-color: {{ house_color }};
+			color : white; 
+			}
+	</style>
+</head>
+<body>
+	<h1>Welcome to ASR</h1>
+	<h2>Our house is {{ house }}</h2>
+	<img src="static/{{ house }}.jpg" alt="{{ house }}">
+	<img src="static/{{ house }}_mascot.jpg" alt="mascot">
+	<hr>
+	<h2>House Points: {{ house_pt }}</h2>
+	</hr>
+</body>
+</html>
